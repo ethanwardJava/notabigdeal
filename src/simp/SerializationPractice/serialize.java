@@ -17,9 +17,10 @@ public class serialize {
         System.out.println("====== OPERATION FINISHED SUCCESSFULLY ======");
     }
 
-    public static void deserialize(File filePath) throws IOException, InterruptedException, ClassNotFoundException {
+    public static void deserialize() throws IOException, InterruptedException, ClassNotFoundException {
         // mnt/hdd/Idea/CoreJava
         Product tea;
+        File filePath = new File("/mnt/hdd/Idea/CoreJava/product.ser");
         FileInputStream fis = new FileInputStream(filePath);
         ObjectInputStream ois = new ObjectInputStream(fis);
         tea = (Product) ois.readObject();
