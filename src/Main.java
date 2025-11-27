@@ -1,5 +1,5 @@
 import IoAndnio.CharacterStreams;
 
 void main() throws IOException {
-    CharacterStreams.readAFile();
+    CharacterStreams.echo("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
 }
