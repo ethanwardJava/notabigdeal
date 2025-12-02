@@ -1,3 +1,4 @@
 void main() {
-    TimePlaying.operate();
+    FunctionalProgramming.operate();
 }
+
