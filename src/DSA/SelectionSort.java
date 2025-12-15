@@ -1,10 +1,15 @@
 package DSA;
 
+import java.util.LinkedList;
+
 public class SelectionSort {
     private final int[] arr = {17, 5, 612, 10, 2, 3, 4, 11, 33};
     private final int size = arr.length;
 
     public void sort() {
+
+        LinkedList<Integer> a ;
+
 
         System.out.println("Before : ");
         for (int t : arr){
